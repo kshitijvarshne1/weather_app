@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Box, TextField, Button, makeStyles } from "@material-ui/core";
-import { getWeather } from "../services/api";
+import { getWeather } from "../service/api";
 import Information from "./Information";
 
 const useStyles = makeStyles({
