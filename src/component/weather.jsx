@@ -1,5 +1,6 @@
 import { makeStyles, Box, Typography } from "@material-ui/core";
 import Image from "../img/bg.jpg";
+import Form from "./Form";
 
 const useStyles = makeStyles({
   component: {
@@ -28,7 +29,9 @@ const Weather = () => {
   return (
     <Box className={classes.component}>
       <Box className={classes.leftContainer}></Box>
-      <Box className={classes.rightContainer}></Box>
+      <Box className={classes.rightContainer}>
+        <Form />
+      </Box>
     </Box>
   );
 };
